@@ -94,9 +94,12 @@ html {
   margin-right: auto; }
 
 .avatar img {
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%); }
+  /* Safari 6.0 - 9.0 
+  filter: grayscale(100%); */}
 
+.carousel-inner {
+  background: lightgrey;}
+  
 footer a:not(.nav-link) {
   color: inherit;
   border-bottom: 1px dashed;
